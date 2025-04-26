@@ -11,4 +11,19 @@ body {
   color: #cccccc;
   font-size: 22px;
   line-height: 1.6;
+}
+
+.text_uppercase {
+  text-transform: uppercase;
+}
+
+.logo {
+  font-weight: 900;
+  text-wrap: nowrap;
+}
+.logo__yellow {
+  color: #ffcf22;
+}
+.logo__pink {
+  color: #ed6f86;
 }/*# sourceMappingURL=style.css.map */
