@@ -25,6 +25,12 @@ body {
   text-transform: uppercase;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .logo {
     font-weight: 900;
     text-wrap: nowrap;
@@ -34,4 +40,20 @@ body {
     &__pink {
         color: $primary-color;
     }
+}
+
+.menu {
+  padding: 1rem 2rem;
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  &__link {
+    text-decoration: none;
+    color: $primary-text-color;
+    &:hover {
+      color: $primary-color;
+    }
+  }
 }
